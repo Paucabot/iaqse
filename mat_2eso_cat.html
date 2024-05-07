@@ -1,0 +1,228 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html lang="cat">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+	
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+
+	<meta name="title" content="IAQSE">
+	<meta name="description" content="">
+	<meta name="keywords" content="">
+	<meta name="language" content="cat" />
+	<meta name="page-topic" content="">
+	<meta name="author" content="iaqse@iaqse.caib.es">
+	
+	<link rel="icon" href="fitxers/css/img/favicon.ico" type="image/x-icon">
+	<link rel="shortcut icon" type="image/x-icon" href="fitxers/css/img/favicon.ico">
+		
+	<meta name="robots" content="index,follow">
+	<meta name="document-classification" content="Education">
+	<meta name="document-type" content="Public">
+	<meta name="document-rating" content="Safe for Kids">
+		
+	<link rel="stylesheet" type="text/css" href="fitxers/css/estilo.css">
+	
+	<script type="text/javascript" src="fitxers/js/jquery.min.js"></script>
+	<script type="text/javascript" src="fitxers/js/acciones_cat.js"></script>
+	<script type="text/javascript" src="fitxers/js/config_mat_cat.js"></script>
+	
+	<script type="text/javascript">
+				$(document).ready(function() {
+					seleccionar_modelo();
+				});
+	</script>
+		
+<title>IAQSE</title>
+</head>
+<body>
+	<div id="wrap">
+		
+		<div id="div_principal">
+			
+			<div id="div_cab_extra">
+				<img id="img_cab" src="fitxers/css/img/logo_cab_bis.png" title="IAQSE"/>
+			</div>
+			
+			<div id="div_cab">
+				<p>Competència en matemàtiques</p>
+				<p>2n ESO</p>	
+			</div>
+						
+			<div id="div_central">
+			
+				
+				
+				<div class="div_sel_modelo">
+					<div id="div_inst_generals">
+						<p> Tria el model que apareix al teu quadern de respostes.</p>
+					</div>
+					<!--
+					<div class="cab_div_sel_modelo">
+						Selecciona el model	
+					</div>
+					-->
+					<div class="div_btns_modelo">
+						<div class="btn_modelo">
+							<a href="javascript:iniciar_modelo(1)" title="Modelo 1">
+								<div class="cont_btn_modelo">
+									Model 1
+								</div>
+							</a>
+						</div>
+						<div class="btn_modelo">
+							<a href="javascript:iniciar_modelo(2)" title="Modelo 2">
+								<div class="cont_btn_modelo">
+									Model 2
+								</div>
+							</a>
+						</div>
+						<div class="btn_modelo">
+							<a href="javascript:iniciar_modelo(3)" title="Modelo 3">
+								<div class="cont_btn_modelo">
+									Model 3
+								</div>
+							</a>
+						</div>
+						<div class="btn_modelo">
+							<a href="javascript:iniciar_modelo(4)" title="Modelo 4">
+								<div class="cont_btn_modelo">
+									Model 4
+								</div>
+							</a>
+						</div>
+					</div>	
+				</div>
+				
+				
+				
+				<div id="previo">
+					<div id="div_inf_modelo">
+						
+					</div>
+					<!--
+					<div id="reiniciar_modelo">
+						<p> Si t'has equivocat de model pots clicar la fletxa per tornar a triar el model </p>
+						<a href="javascript:reiniciar_modelo()" title="Clicau per tornar a triar el model">
+							<img class="img_flecha" src="fitxers/css/img/volver.png"/>
+						</a>		
+					</div>
+					-->
+				</div>	
+				
+				
+				<div id="div_preguntas">
+					
+					<div id="div_bloque">
+						
+					</div>
+					
+					<div id="div_estimulo">
+						<img id="img_estimulo" src=""/>
+						<span id="txt_estimulo"> </span>
+					</div>
+					
+					<div id="div_pregunta_principal" class="div_pregunta">
+						
+						
+						<div id="div_num_pregunta_princ" class="div_num_pregunta" >
+								
+						</div>
+						<div id="txt_pregunta_princ" class="txt_pregunta">
+							
+						</div>
+						<div id="div_imgPregunta">
+							<img id="img_pregunta" src=""/>
+						</div>
+							
+						<div id="coment_abierta_princ" class="coment_abierta">
+							
+						</div>
+						
+						<div class="opciones_preg" id="opciones_preg_principal">
+							
+							
+						</div>
+						
+						<div id="div_inst_preg" class="inst_preg">
+							
+						</div>
+						<div id="div_semi_princ" class="div_semi">
+							<img id="img_semi" src=""/>
+							<span id="txt_semi"> </span>
+						</div>
+					</div>
+					<div id="div_hijas">
+					
+					</div>
+				</div>
+				
+				<div id="div_finalizar">
+					<div id="div_finalizar_txt">
+						<p> Ja has arribat al final de la prova. </p>
+						<p> Clica al botó si vols tornar a la pregunta inicial per repasar.</p>
+					</div>
+					<div id="div_btn_finalizar_wrap">
+						<div id="div_btn_finalizar">
+							<a href="javascript:finalizar()" title="Modelo 1">
+								<div class="cont_btn_modelo">
+									Tornar a l'inici
+								</div>
+							</a>
+						</div>
+					</div>	
+				
+				</div>
+				
+				<div id="div_navegacion">
+					<div class="div_flecha" id="div_flecha_reiniciar">
+						<a href="javascript:reiniciar_modelo()" title="Clicau per tornar a triar el model">
+							<img class="img_flecha" src="fitxers/css/img/home_mat.png"/>
+						</a>	
+					</div>
+					
+					<div class="div_flecha" id="div_flecha_ant">
+						<a href="javascript:anterior()" title="Anterior">
+							<img class="img_flecha" src="fitxers/css/img/anterior_mat.png"/>
+						</a>	
+					</div>
+					
+					<div id="div_posiciones">
+						
+						
+						<div id="cuadrito1">
+							1
+						</div>
+						<div id="celda_posiciones">
+							<div id="div_cuadritos">
+									
+							</div>
+						</div>
+						<div id="cuadritoN">
+								
+						</div>
+							
+					</div>
+					
+					<div class="div_flecha" id="div_flecha_sig">
+						<a href="javascript:siguiente()" title="Siguiente">
+							<img class="img_flecha" src="fitxers/css/img/siguiente_mat.png"/>
+						</a>	
+					</div>
+					<div class="div_flecha" id="div_flecha_finalizar">
+						<a href="javascript:finalizar_previo()" title="Finalizar">
+							<img class="img_flecha" src="fitxers/css/img/circulo_fin_mat.png"/>
+						</a>	
+					</div>
+					
+				</div>	
+				
+			</div>
+			<div id="div_pie">
+			
+			
+			</div>
+		</div>
+		
+	</div>	
+</body>
+</html>
